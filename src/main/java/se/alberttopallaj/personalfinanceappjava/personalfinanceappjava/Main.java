@@ -9,7 +9,7 @@ import se.alberttopallaj.personalfinanceappjava.personalfinanceappjava.models.Da
 
 
 public class Main extends Application {  // Main klassen, vad som ska köras
-    @Override // Oklart
+    @Override
     public void start(Stage primaryStage) { // Metoden som ska köras när appen startas
         DataStore.loadTransactions();
         LoginScene login = new LoginScene(); // En logga in sida
